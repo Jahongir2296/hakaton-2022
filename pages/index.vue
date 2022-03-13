@@ -7,6 +7,7 @@
    </div>
      <about />
      <question />
+     <!-- <main-corusel /> -->
      <statistica />
      <fresh />
      <the-footer />
@@ -15,9 +16,10 @@
 
 <script>
 import HeaderContent from '../components/headerContent.vue'
+import MainCorusel from '../components/MainCorusel.vue'
 import Navbar from '../components/Navbar.vue'
 export default {
-  components: { Navbar, HeaderContent },
+  components: { Navbar, HeaderContent, MainCorusel },
   name: 'IndexPage'
 }
 </script>

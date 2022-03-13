@@ -64,7 +64,7 @@
     #region{
         outline: none;
         background: rgba(255, 255, 255, 0.1);
-        border-radius: 8px;
+        border-radius: 8px; 
         padding: 12px 16px;
     }
     .seleckt-name{

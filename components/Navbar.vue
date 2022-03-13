@@ -2,10 +2,10 @@
   <div class="relative z-10">
        <div class="container px-4 flex justify-between">
         <div class="flex gap-6">
-                <router-link to="/"> <img src="../static/navbar/dree.svg" alt="logo"></router-link>
+                <router-link to="/index"> <img src="../static/navbar/dree.svg" alt="logo"></router-link>
                 <ul class="flex gap-5">
-                    <router-link to="/"><li class="header-link z-10">Asosiy</li></router-link>
-                    <router-link to=""><li class="header-link">Daraxt ekish</li></router-link>
+                    <router-link to="/index"><li class="header-link z-10">Asosiy</li></router-link>
+                    <router-link to="/tree-planting"><li class="header-link">Daraxt ekish</li></router-link>
                     <router-link to=""><li class="header-link">Loyiha haqida</li></router-link>
                 </ul>
         </div>
@@ -66,7 +66,24 @@ export default {
     height: 1px;
 }
 .header-link{
+    position: relative;
     color: #fff;
+    transition: .35s;
+}
+.header-link::before{
+    content: "";
+    position: absolute;
+    background: #00AC68;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    transform: translate(0, 4px);
+    background: linear-gradient(180deg, rgba(59, 206, 83, 0) 0%, rgba(21, 190, 109, 0) 0.01%, #15BE6D 100%);
+    display: none;
+    transition: .35s;
+}
+.header-link:hover::before{
+    display: block;
 }
 .svg-arrow{
     margin-left: 4px;

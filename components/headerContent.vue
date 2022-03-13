@@ -4,7 +4,9 @@
             Kelajak uchun daraxtlar ekilishiga o'z hissangizni qo'shing!
         </h1>
         <p class="header-info">1ta daraxt 10 000 so'mdan</p>
-        <button class="header-btn">Daraxt ekish</button>
+        <router-link to="/">
+            <button class="header-btn">Daraxt ekish</button>
+        </router-link>
     </div>
 </template>
 

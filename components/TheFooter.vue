@@ -4,12 +4,12 @@
             <div>
                 <img src="../static/navbar/dree.svg" alt="logo">
                <div  class="flex gap-4">
-                    <div class="social">
+                    <div class="social social-tg">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M23.9365 4.98916L20.5735 19.5366C20.3197 20.5633 19.6581 20.8188 18.7178 20.3351L13.5936 16.8717L11.1211 19.0529C10.8475 19.3038 10.6186 19.5138 10.0913 19.5138L10.4594 14.727L19.9566 6.8555C20.3695 6.51783 19.867 6.33073 19.3148 6.66841L7.57395 13.4493L2.51942 11.9982C1.41996 11.6833 1.40006 10.9897 2.74827 10.506L22.5187 3.51982C23.434 3.20496 24.235 3.70691 23.9365 4.98916Z" fill="white"/>
                         </svg>
                     </div>
-                     <div class="social">
+                     <div class="social social-tg">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M13.7241 11.0712L14.1686 7.96875H11.3895V5.95546C11.3895 5.10669 11.7777 4.27935 13.0224 4.27935H14.2858V1.63794C14.2858 1.63794 13.1393 1.42834 12.0431 1.42834C9.75445 1.42834 8.25846 2.91428 8.25846 5.60424V7.96875H5.71442V11.0712H8.25846V18.5712H11.3895V11.0712H13.7241Z" fill="white"/>
                         </svg>
@@ -127,4 +127,19 @@
         height: 18px;
         margin-left: 8px;
     }
+    .social-tg{
+         width: 64px;
+        height: 92px;
+        background: #3F4A47;
+        box-shadow: 0px 4px 16px rgba(55, 55, 55, 0.08), 0px 0px 7px rgba(94, 92, 92, 0.1);
+        border-radius: 6px;
+        margin-top: 36px;
+        display: flex;
+        justify-content: center;
+        padding: 34px 0;
+    }
+    .social-tg:hover{
+        background: linear-gradient(180deg, #2AABEE 0%, #229ED9 99.26%)
+    }
+    
 </style>
